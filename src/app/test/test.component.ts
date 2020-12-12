@@ -8,6 +8,8 @@ import { Component, OnInit } from '@angular/core';
 export class TestComponent implements OnInit {
 
   public title = 'Boom';
+  public myId = 'testId';
+  public disabled = false;
 
   constructor() { }
 
