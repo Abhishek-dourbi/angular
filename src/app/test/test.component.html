@@ -1,2 +1,7 @@
 <h2>Welcome {{title}}</h2>
-<input id="{{myId}}" [disabled]="disabled">
+<h2 class="text-success">Angular</h2>
+<h2 [class]="successClass">Angular</h2>
+<h2 class="{{successClass}}">Angular</h2>
+<h2 class="text-special" [class]="successClass">Angular</h2>
+<h2 [class.text-error]="hasError">Angular</h2>
+<h2 [ngClass]="messageClasses">Angular</h2>

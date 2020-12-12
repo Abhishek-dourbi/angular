@@ -8,8 +8,14 @@ import { Component, OnInit } from '@angular/core';
 export class TestComponent implements OnInit {
 
   public title = 'Boom';
-  public myId = 'testId';
-  public disabled = false;
+  public successClass = 'text-success';
+  public hasError = false;
+  public isSpecial = true;
+  public messageClasses = {
+    'text-success': !this.hasError,
+    'text-error': this.hasError,
+    'text-special': this.isSpecial
+  };
 
   constructor() { }
 
