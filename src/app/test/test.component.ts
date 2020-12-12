@@ -34,6 +34,8 @@ export class TestComponent implements OnInit {
 
   public color = 'red';
 
+  public colors = ['red', 'yellow', 'blue', 'green'];
+
 
   onClick(event: any): void {
     console.log(event);

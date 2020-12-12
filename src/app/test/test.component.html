@@ -75,3 +75,16 @@
     <h2>Default color</h2>
   </div>
 </div>
+
+
+      <!--ngFor directive-->
+<div *ngFor="let color of colors; index as i; first as f; last as l; odd as o; even as e">
+  <h2>
+    {{i}}
+    {{f}}
+    {{l}}
+    {{o}}
+    {{e}}
+    {{color}}
+  </h2>
+</div>
