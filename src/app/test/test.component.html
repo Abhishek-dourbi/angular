@@ -13,3 +13,8 @@
 <h2 [style.color]="hasError ? 'red' : 'green'">Angular</h2>
 <h2 [style.color]="highlightColor">Angular</h2>
 <h2 [ngStyle]="titleStyle">Angular</h2>
+
+<!--event binding-->
+<button (click)="onClick($event)">Greet</button>
+<button (click)="greeting = 'Welcome to Angular'">Greet</button>
+{{greeting}}

@@ -16,11 +16,19 @@ export class TestComponent implements OnInit {
     'text-error': this.hasError,
     'text-special': this.isSpecial
   };
+
   public highlightColor = 'orange';
   public titleStyle = {
     color: 'brown',
     fontStyle: 'italic'
   };
+
+
+  public greeting = '';
+  onClick(event: any): void {
+    console.log(event);
+    this.greeting = event.type;
+  }
 
   constructor() { }
 
