@@ -7,6 +7,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class TestComponent implements OnInit {
 
+  constructor() { }
+
   public title = 'Boom';
   public successClass = 'text-success';
   public hasError = false;
@@ -25,6 +27,10 @@ export class TestComponent implements OnInit {
 
 
   public greeting = '';
+
+  public name = '';
+
+
   onClick(event: any): void {
     console.log(event);
     this.greeting = event.type;
@@ -33,8 +39,6 @@ export class TestComponent implements OnInit {
   logMessage(val: string): void {
     alert(val);
   }
-
-  constructor() { }
 
   ngOnInit(): void {
   }
