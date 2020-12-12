@@ -35,7 +35,7 @@
 
 <!--Structural directives-->
 
-      <!--  ngif directive-->
+      <!--  ngIf directive-->
 
 <h2 *ngIf="displayName; else elseBlock">Angular</h2>
 <ng-template #elseBlock>
@@ -57,3 +57,21 @@
     Hidden Element
   </h2>
 </ng-template>
+
+
+      <!--ngSwitch directive-->
+
+<div [ngSwitch]="color">
+  <div *ngSwitchCase="'red'">
+    <h2>Red color</h2>
+  </div>
+  <div *ngSwitchCase="'blue'">
+    <h2>Blue color</h2>
+  </div>
+  <div *ngSwitchCase="'green'">
+    <h2>Green color</h2>
+  </div>
+  <div *ngSwitchDefault>
+    <h2>Default color</h2>
+  </div>
+</div>

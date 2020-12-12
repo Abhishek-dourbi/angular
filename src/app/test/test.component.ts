@@ -32,6 +32,8 @@ export class TestComponent implements OnInit {
 
   public displayName = false;
 
+  public color = 'red';
+
 
   onClick(event: any): void {
     console.log(event);
