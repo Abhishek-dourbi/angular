@@ -30,6 +30,8 @@ export class TestComponent implements OnInit {
 
   public name = '';
 
+  public displayName = false;
+
 
   onClick(event: any): void {
     console.log(event);
