@@ -1,7 +1,15 @@
 <h2>Welcome {{title}}</h2>
+
+<!--class binding-->
 <h2 class="text-success">Angular</h2>
 <h2 [class]="successClass">Angular</h2>
 <h2 class="{{successClass}}">Angular</h2>
 <h2 class="text-special" [class]="successClass">Angular</h2>
 <h2 [class.text-error]="hasError">Angular</h2>
 <h2 [ngClass]="messageClasses">Angular</h2>
+
+<!--style binding-->
+<h2 [style.color]="'blue'">Angular</h2>
+<h2 [style.color]="hasError ? 'red' : 'green'">Angular</h2>
+<h2 [style.color]="highlightColor">Angular</h2>
+<h2 [ngStyle]="titleStyle">Angular</h2>
