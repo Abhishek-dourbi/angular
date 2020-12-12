@@ -30,6 +30,10 @@ export class TestComponent implements OnInit {
     this.greeting = event.type;
   }
 
+  logMessage(val: string): void {
+    alert(val);
+  }
+
   constructor() { }
 
   ngOnInit(): void {

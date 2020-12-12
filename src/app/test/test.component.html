@@ -18,3 +18,9 @@
 <button (click)="onClick($event)">Greet</button>
 <button (click)="greeting = 'Welcome to Angular'">Greet</button>
 {{greeting}}
+
+<br/>
+<br/>
+<!--template ref-->
+<input #myInput type="text">
+<button (click)="logMessage(myInput.value)">Log</button>
