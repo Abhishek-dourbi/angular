@@ -40,6 +40,14 @@ export class TestComponent implements OnInit {
   @Input('parentData') public label: any;
   @Output() public childEvent = new EventEmitter();
 
+  public term = 'Angular';
+  public message = 'welcome to angular';
+  public person = {
+    "firstname": "John",
+    "lastname": "Doe"
+  };
+  public date = new Date();
+
   fireEvent(): void {
     this.childEvent.emit('Hello Child');
   }

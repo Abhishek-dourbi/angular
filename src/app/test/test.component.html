@@ -96,3 +96,43 @@
 </h2>
 
 <button (click)="fireEvent()">Send Event</button>
+
+
+<!--Pipes-->
+
+        <!--    String Pipes-->
+
+<h2>{{ term }}</h2>
+<h2>{{ term | lowercase }}</h2>
+<h2>{{ term | uppercase }}</h2>
+<h2>{{ message | titlecase }}</h2>
+<h2>{{ message | slice:2:4 }}</h2>
+<h2>{{ person | json }}</h2>
+
+        <!--    Number Pipes-->
+
+<h2>{{ 5.678 | number: '1.2-3' }}</h2>          <!--minimum number of digits before decimal . minimum number of digits after decimal - maximum number of digits after decimal-->
+<h2>{{ 5.678 | number: '3.5-8' }}</h2>
+<h2>{{ 5.678 | number: '3.1-2' }}</h2>
+
+
+        <!--    Percent Pipe-->
+<h2>{{ 0.25 | percent }}</h2>
+
+        <!--    Currency Pipe-->
+<h2>{{ 0.25 | currency }}</h2>
+<h2>{{ 0.25 | currency: 'GBP' }}</h2>
+<h2>{{ 0.25 | currency: 'GBP': 'code' }}</h2>
+
+        <!--    Currency Pipe-->
+<h2>{{ 0.25 | currency: 'GBP': 'code' }}</h2>
+
+        <!--    Date Pipes-->
+<h2>{{ date }}</h2>
+<h2>{{ date | date: 'short' }}</h2>
+<h2>{{ date | date: 'shortDate' }}</h2>
+<h2>{{ date | date: 'shortTime' }}</h2>
+<h2>{{ date | date: 'mediumDate' }}</h2>
+<h2>{{ date | date: 'mediumTime' }}</h2>
+<h2>{{ date | date: 'longDate' }}</h2>
+<h2>{{ date | date: 'longTime' }}</h2>
