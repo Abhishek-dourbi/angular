@@ -8,7 +8,7 @@ import {EmployeeService} from '../employee.service';
 })
 export class EmployeeDetailComponent implements OnInit {
 
-  public employees = [];
+  public employees: any = [];
 
   constructor(private employeeService: EmployeeService) { }
 
