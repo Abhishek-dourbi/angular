@@ -36,6 +36,18 @@ export class DepartmentDetailComponent implements OnInit {
     });
   }
 
+  showOverview() {
+    this.router.navigate(['overview'], {
+      relativeTo: this.route,
+    });
+  }
+
+  showContact() {
+    this.router.navigate(['contact'], {
+      relativeTo: this.route,
+    });
+  }
+
   ngOnInit(): void {
     this.route.paramMap.subscribe((params: ParamMap) => {
       this.departmentId = parseInt(params.get('id'));
