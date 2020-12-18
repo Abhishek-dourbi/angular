@@ -14,19 +14,26 @@ export class DepartmentDetailComponent implements OnInit {
 
   goPrevious() {
     const previousId = this.departmentId - 1;
-    this.router.navigate(['/departments', previousId]);
+    this.router.navigate(['../', previousId], {
+      relativeTo: this.route
+    });
   }
 
   goNext() {
     const nextId = this.departmentId + 1;
-    this.router.navigate(['/departments', nextId]);
+    this.router.navigate(['../', nextId], {
+      relativeTo: this.route
+    });
   }
 
   goToDepartments() {
     const selectedId = this.departmentId ? this.departmentId : null;
-    this.router.navigate(['/departments', {
-      id: selectedId
-    }]);
+    // this.router.navigate(['/departments', {
+    //   id: selectedId
+    // }]);
+    this.router.navigate(['../', {id: selectedId}], {
+      relativeTo: this.route
+    });
   }
 
   ngOnInit(): void {
