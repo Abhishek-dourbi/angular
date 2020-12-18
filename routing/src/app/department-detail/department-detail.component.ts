@@ -22,6 +22,13 @@ export class DepartmentDetailComponent implements OnInit {
     this.router.navigate(['/departments', nextId]);
   }
 
+  goToDepartments() {
+    const selectedId = this.departmentId ? this.departmentId : null;
+    this.router.navigate(['/departments', {
+      id: selectedId
+    }]);
+  }
+
   ngOnInit(): void {
     this.route.paramMap.subscribe((params: ParamMap) => {
       this.departmentId = parseInt(params.get('id'));

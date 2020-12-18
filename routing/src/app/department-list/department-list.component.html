@@ -1,5 +1,5 @@
 <ul>
-  <li (click)="onSelect(department)" *ngFor="let department of departments">
+  <li (click)="onSelect(department)" [class.selected]="isSelected(department)" *ngFor="let department of departments">
     {{department.name}}
   </li>
 </ul>
