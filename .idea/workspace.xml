@@ -2,50 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="062cc0e7-c977-4c66-b0cd-1fc46b094367" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/e2e/protractor.conf.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/e2e/src/app.e2e-spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/e2e/src/app.po.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/e2e/tsconfig.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/karma.conf.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/app-routing.module.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/app.component.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/app.component.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/app.component.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/app.component.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/app.module.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/employee-detail/employee-detail.component.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/employee-detail/employee-detail.component.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/employee-detail/employee-detail.component.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/employee-detail/employee-detail.component.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/employee-list/employee-list.component.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/employee-list/employee-list.component.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/employee-list/employee-list.component.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/employee-list/employee-list.component.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/employee.service.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/employee.service.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/employee.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/test/test.component.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/test/test.component.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/test/test.component.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/test/test.component.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/.gitkeep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/data/employees.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/environments/environment.prod.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/environments/environment.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/polyfills.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tsconfig.app.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tsconfig.spec.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tslint.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -66,7 +23,12 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs.protractor.protractor_package" value="$PROJECT_DIR$/node_modules/protractor" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="ts.external.directory.path" value="$PROJECT_DIR$/node_modules/typescript/lib" />
+    <property name="ts.external.directory.path" value="$PROJECT_DIR$/routing/node_modules/typescript/lib" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/routing" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -127,6 +89,7 @@
       <workItem from="1607846687726" duration="582000" />
       <workItem from="1607954090863" duration="4262000" />
       <workItem from="1608278232343" duration="3956000" />
+      <workItem from="1608319399217" duration="738000" />
     </task>
     <servers />
   </component>
